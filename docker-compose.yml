@@ -11,4 +11,4 @@ services:
       - DB2INST1_PASSWORD=lrba
       - DBNAME=LABDB
     volumes:
-      - ~/database:/database
+      - /app/lra.db2/database:/database
